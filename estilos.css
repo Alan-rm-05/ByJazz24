@@ -1,0 +1,157 @@
+@charset "UTF-8";
+* {
+	font-family: Gotham, "Helvetica Neue", Helvetica;
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	text-style: none;
+	list-style: none;
+}
+
+.logotipo img {
+	width: 85px;
+	height: 65px;
+	padding-left: 30px;
+	padding-top: 30px;
+	position: fixed;
+}
+
+.cabecera {
+	width: 100%;
+	left: auto;
+	background-color: #FFD7EB;
+	height: 15%;
+	color: #c95890;
+	font-size: 1em;
+	font-weight: none;
+}
+h1 {
+  font-family: fantasy;
+  font-weight: 400;
+  font-style: normal;
+	text-align: center;s
+	padding-left:  1%;
+  font-size: 5em;
+}
+
+h3 {
+	color: #FFD7EB;
+}
+
+nav {
+	background-color: #FA98C9;
+	height: 80px;
+	width: 100%;
+}
+nav ul {
+	float: right;
+	margin-right: 20px;
+}
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+	margin: 0px 5px;
+	z-index: 3;
+}
+nav ul li a {
+	color: #FFF9D7;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	z-index: 4;
+}
+a:hover {
+	background-color: #c95890;
+	transition: .5s;
+}
+.contenedor2{
+	width: 100%;
+	max-height: 80%;
+	background-color: #FFD7EB;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	color: #c95890;
+}
+.principal {
+	width: 45%;
+	max-height: 80%;
+	background-color: #FFD7EB;
+	padding: 2%;
+	margin-right: 2%;
+}
+.seccion {
+	width: 24%;
+	max-height: 80%;
+	background-color: #FA98C9;
+	padding: 2%;
+	margin-right: 2%;
+}
+img {
+	max-width: 100%;
+}
+
+.contenedor3 {
+	width: 100%;
+	max-height: 60%;
+	background-color: #FA98C9;
+	margin-top: 0%;
+}
+.articulos {
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+}
+.articulos>div {
+	width: 20%;
+	max-height: 60%;
+	color: #990460;
+	background-color: #FA98C9;
+	text-align: center;
+	padding: 2%;
+}
+.pie{
+	width: 100%;
+	height: 10%;
+	background-color: #c95890;
+	color: #FFD7EB;
+	clear: both;
+	line-height: normal;
+	text-align: center;
+	padding-bottom: 14px;
+	font-size: 1em;
+	position: relative;
+}
+
+/*Animaciones con CSS*/
+
+.latido {
+	animation-name: pulso;
+	animation-duration: .8s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+		
+}
+@keyframes pulso {
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(0.8);
+	}
+}
+#color3 {
+	transition-property: background-color;
+	transition-duration: 3s;
+}
+#color3:hover {
+	background-color: #FFD7EB;
+}
+
+#color1 {
+	transition-property: background-color, border-radius;
+	transition-duration: 5s;
+}
+

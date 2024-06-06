@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="español"> <!--etiqueta de idioma-->
+<head>
+<meta charset="UTF-8">
+<title>By Jazz</title>
+<link href="estilos.css" rel="stylesheet" type="text/css">
+<meta name="Keywords" content="etiquetas semánticas, página web, diseño gráfico"/>
+<meta name="author" content="Barcenas Mendoza Jazmin"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Gamja+Flower&display=swap" rel="stylesheet">
+<script type="text/javascript">
+function MM_changeProp(objId,x,theProp,theValue) { //v9.0
+  var obj = null; with (document){ if (getElementById)
+  obj = getElementById(objId); }
+  if (obj){
+    if (theValue == true || theValue == false)
+      eval("obj.style."+theProp+"="+theValue);
+    else eval("obj.style."+theProp+"='"+theValue+"'");
+  }
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+	
+
+<body onLoad="MM_preloadImages('IMAGENES/IMAGEN02.png')">
+	<header class="cabecera">
+
+     <div class="content">
+	  <div class="menu container">
+	  <label for="menu-icono" class="logotipo">
+	  <a href="INDEX.html" class="Logo"> <img src="imagenes/Logo.png" alt=""></a></label>
+	  </div>	
+	 </div>
+
+		<h1>By Jazz</h1>
+			<nav>
+				<ul>
+					<li><a href="INDEX.html">Inicio</a></li>
+					<li><a href="INDEX - portafolio.html">Portafolio</a></li>
+					<li><a href="INDEX - registro.html">Registro</a></li>
+					<li><a href="https://www.instagram.com/jaz_barmen15/">Contacto</a></li>
+				</ul>
+			</nav>
+		
+	</header>
+	
+	<div class="contenedor2">
+	<main class="principal">
+	<h2>Me presento:</h2>
+	<p id="textG" onMouseMove="MM_changeProp('textG','','fontSize','1.5em','P')" onMouseOut="MM_changeProp('textG','','fontSize','1em','P')"> <br><br>Hola, un placer tenerte aquí, soy Jazmin Barcenas; una Diseñadora en proceso. <br><br> Lo que más me apasiona es capturar espléndidos momentos con la FOTOGRAFÍA y su edición. <br><br> Actualmente dedico la mayoría del tiempo a editar y mejorar fotografías, además de la creación de carteles y publicidad. <br><br>Aquí puedes conocerme y darle un vistazo a mi trabajo e inspirarte</p>
+	</main>
+		
+	<section class="seccion">
+	<h3>Esta soy yo:</h3>
+	<img src="imagenes/foto principal.jpeg" alt="" width="321.5px" height="574px"/>
+	</section>
+		
+	</div> <!--cierre de contenedor 2-->
+		
+	<div class="contenedor3">
+	<article class="articulos">
+		<div id="color1" onMouseOver="MM_changeProp('color1','','backgroundColor','#FFD7EB','DIV')" onMouseOut="MM_changeProp('color1','','backgroundColor','black','DIV')">
+			<h4>Mi pensar:</h4>
+			<p><br>Una de mis mayores pasiones son el arte y aplicarlo en mis creaciones; siendo este una parte fundamental en mi pensar. La corriente artística que inspira mis diseños es el impresionismo, principalmente <li><a href="https://historia-arte.com/artistas/edgar-degas">Edgar Degas</a></li> con las famosas pinturas de las bailarinas, las cuales representan ese movimiento y armonía entre el caos. </p>
+		</div>
+		<div class="latido">
+		  <h4>Mi sentir:</h4>
+			<p><br>"Observa las cosas USUALES <br><br><br>con ojos INUSUALES." <br><br><br>-Vigo Magistretti.</p>
+	  </div>
+		<div id="color3">
+			<h4>Mi ser:</h4>
+			<p><br>Mi inspiración es la cultura asiática, especificamente la coreana por su atractivo estético y cultural como la cultura del K-pop. Esta se caracteriza por su alto nivel visual y su desarrollo publicitario, siendo este sumamente creativo y específico. Grandes grupos como: <br>-BTS<br>-Seventeen<br>-New Jeans<br>-Twice<br>inspiran mi creatividad, formando así mi diseño PERSONAL.</p>
+		</div>
+		<div>
+			<h4>Mi frase:</h4>
+			<p><br>"El gran diseño es una RELACIÓN multidimensional entre la VIDA humana y el ENTORNO." <br><br><br>-Naoto Fukasawa</p>
+		</div>
+	</article>
+	</div><!--cierre del contenedor-->
+	
+	
+	<footer class="pie">
+	<p><br>UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO<br>FACULTAD DE ESTUDIOS SUPERIORES<br>Barcenas Mendoza Jazmin<br></p>
+	
+	</footer>
+	
+	
+	
+</body>
+</html>
